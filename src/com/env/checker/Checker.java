@@ -3,9 +3,7 @@ package com.env.checker;
 import com.env.threadpool.CommonQueue;
 import com.env.threadpool.ServerPool;
 
-/**
- * Created by alex on 6/17/15.
- */
+
 public class Checker extends Thread {
     private volatile CommonQueue tasks;
     private volatile ServerPool pool;

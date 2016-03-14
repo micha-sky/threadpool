@@ -1,9 +1,7 @@
 package com.env.threadpool;
 import java.util.Random;
 
-/**
- * Created by alex on 5/22/15.
- */
+
 public class Client extends Thread{
     private volatile CommonQueue<Message> tasks;
 
