@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ThreadPoolNewEdition:jar">
+  <artifact type="jar" build-on-make="true" name="ThreadPoolNewEdition:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/ThreadPoolNewEdition_jar</output-path>
     <root id="archive" name="ThreadPoolNewEdition.jar">
       <element id="module-output" name="ThreadPoolNewEdition" />
